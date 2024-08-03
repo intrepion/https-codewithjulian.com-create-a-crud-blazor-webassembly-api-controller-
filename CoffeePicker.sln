@@ -1,10 +1,12 @@
-Microsoft Visual Studio Solution File, Format Version 12.00
+﻿Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.0.0
 MinimumVisualStudioVersion = 16.0.0.0
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CoffeePicker", "CoffeePicker\CoffeePicker.csproj", "{A339C4CB-3F6B-4D8A-8CB4-AD76073311A0}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CoffeePicker.Client", "CoffeePicker.Client\CoffeePicker.Client.csproj", "{CBC20075-A068-4B78-ABB6-9F9795A7243C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoffeePicker.ComponentTests", "CoffeePicker.ComponentTests\CoffeePicker.ComponentTests.csproj", "{99528A47-300F-4587-80B1-823FB9EDE5D8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -40,6 +42,18 @@ Global
 		{A339C4CB-3F6B-4D8A-8CB4-AD76073311A0}.Release|x64.Build.0 = Release|Any CPU
 		{A339C4CB-3F6B-4D8A-8CB4-AD76073311A0}.Release|x86.ActiveCfg = Release|Any CPU
 		{A339C4CB-3F6B-4D8A-8CB4-AD76073311A0}.Release|x86.Build.0 = Release|Any CPU
+		{99528A47-300F-4587-80B1-823FB9EDE5D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99528A47-300F-4587-80B1-823FB9EDE5D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99528A47-300F-4587-80B1-823FB9EDE5D8}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{99528A47-300F-4587-80B1-823FB9EDE5D8}.Debug|x64.Build.0 = Debug|Any CPU
+		{99528A47-300F-4587-80B1-823FB9EDE5D8}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{99528A47-300F-4587-80B1-823FB9EDE5D8}.Debug|x86.Build.0 = Debug|Any CPU
+		{99528A47-300F-4587-80B1-823FB9EDE5D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99528A47-300F-4587-80B1-823FB9EDE5D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99528A47-300F-4587-80B1-823FB9EDE5D8}.Release|x64.ActiveCfg = Release|Any CPU
+		{99528A47-300F-4587-80B1-823FB9EDE5D8}.Release|x64.Build.0 = Release|Any CPU
+		{99528A47-300F-4587-80B1-823FB9EDE5D8}.Release|x86.ActiveCfg = Release|Any CPU
+		{99528A47-300F-4587-80B1-823FB9EDE5D8}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
