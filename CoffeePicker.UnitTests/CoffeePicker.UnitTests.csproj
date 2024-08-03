@@ -21,4 +21,8 @@
     <Using Include="NUnit.Framework" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\CoffeePicker.BusinessLogic\CoffeePicker.BusinessLogic.csproj" />
+  </ItemGroup>
+
 </Project>
