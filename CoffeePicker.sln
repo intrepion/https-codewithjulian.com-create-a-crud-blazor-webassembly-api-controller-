@@ -12,6 +12,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoffeePicker.BusinessLogic"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoffeePicker.ConsoleProject", "CoffeePicker.ConsoleProject\CoffeePicker.ConsoleProject.csproj", "{F96F7110-FC2C-4BE7-8A17-52A1E7A187D8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoffeePicker.AcceptanceTests", "CoffeePicker.AcceptanceTests\CoffeePicker.AcceptanceTests.csproj", "{86AB8525-2B6B-4914-BDEC-B01CD777D955}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -82,6 +84,18 @@ Global
 		{F96F7110-FC2C-4BE7-8A17-52A1E7A187D8}.Release|x64.Build.0 = Release|Any CPU
 		{F96F7110-FC2C-4BE7-8A17-52A1E7A187D8}.Release|x86.ActiveCfg = Release|Any CPU
 		{F96F7110-FC2C-4BE7-8A17-52A1E7A187D8}.Release|x86.Build.0 = Release|Any CPU
+		{86AB8525-2B6B-4914-BDEC-B01CD777D955}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86AB8525-2B6B-4914-BDEC-B01CD777D955}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86AB8525-2B6B-4914-BDEC-B01CD777D955}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{86AB8525-2B6B-4914-BDEC-B01CD777D955}.Debug|x64.Build.0 = Debug|Any CPU
+		{86AB8525-2B6B-4914-BDEC-B01CD777D955}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{86AB8525-2B6B-4914-BDEC-B01CD777D955}.Debug|x86.Build.0 = Debug|Any CPU
+		{86AB8525-2B6B-4914-BDEC-B01CD777D955}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86AB8525-2B6B-4914-BDEC-B01CD777D955}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86AB8525-2B6B-4914-BDEC-B01CD777D955}.Release|x64.ActiveCfg = Release|Any CPU
+		{86AB8525-2B6B-4914-BDEC-B01CD777D955}.Release|x64.Build.0 = Release|Any CPU
+		{86AB8525-2B6B-4914-BDEC-B01CD777D955}.Release|x86.ActiveCfg = Release|Any CPU
+		{86AB8525-2B6B-4914-BDEC-B01CD777D955}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
