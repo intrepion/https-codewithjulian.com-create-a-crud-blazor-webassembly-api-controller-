@@ -6,26 +6,26 @@ namespace CoffeePicker.ComponentTests;
 /// </summary>
 public class CounterCSharpTests : BunitContext
 {
-	[Test]
-	public void CounterStartsAtZero()
-	{
-		// Arrange
-		var cut = Render<Counter>();
+    [Test]
+    public void CounterStartsAtZero()
+    {
+        // Arrange
+        var cut = Render<Counter>();
 
-		// Assert that content of the paragraph shows counter at zero
-		cut.Find("p").MarkupMatches("<p>Current count: 0</p>");
-	}
+        // Assert that content of the paragraph shows counter at zero
+        cut.Find("p").MarkupMatches("<p>Current count: 0</p>");
+    }
 
-	[Test]
-	public void ClickingButtonIncrementsCounter()
-	{
-		// Arrange
-		var cut = Render<Counter>();
+    [Test]
+    public void ClickingButtonIncrementsCounter()
+    {
+        // Arrange
+        var cut = Render<Counter>();
 
-		// Act - click button to increment counter
-		cut.Find("button").Click();
+        // Act - click button to increment counter
+        cut.Find("button").Click();
 
-		// Assert that the counter was incremented
-		cut.Find("p").MarkupMatches("<p>Current count: 1</p>");
-	}
+        // Assert that the counter was incremented
+        cut.Find("p").MarkupMatches("<p>Current count: 1</p>");
+    }
 }
